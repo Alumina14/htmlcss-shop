@@ -1,0 +1,57 @@
+.container{
+  background-color: lightgrey;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+}
+
+div{
+  display: inline-block;
+  position: relative;
+
+}
+
+.sezione1{
+text-align: center;
+padding-top: 25px;
+
+}
+
+span{
+display: inline-block;
+}
+
+.sezione2{
+text-align: center;
+}
+
+.sconto30{
+  background-color: green;
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  font-family: verdana;
+
+}
+
+.sconto5{
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  font-family: verdana;
+
+}
+/* Il cuore deve stare dentro al div di ogni prodotto e deve avere una position. */
+
+div:hover .cuore{
+  opacity: 1;
+color: red;
+}
+
+.cuore{
+  position: absolute;
+  right: 45%;
+  bottom: 3%;
+  opacity: 0;
+}
